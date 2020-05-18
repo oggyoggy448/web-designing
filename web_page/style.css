@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background: rgb(0, 6, 57);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    overflow: hidden;
+    position: sticky;
+    background-color: rgb(0, 6, 57);
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.nav ul{
+    margin: 20px 80px 20px 80px;
+}
+.nav-right{
+    float: right;
+}
+
+.nav ul li a {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nav ul li a:hover {
+    opacity: 1;
+}
+
+.btn_trial{
+    background-color: #5c6ac4;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.btn_trial:hover{
+    background-color: #000;
+    border-color: #5c6ac4;
+}
+.logo{
+    color: #fff;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.encyclopedia{
+    margin: 0 80px;
+    color: #fff;
+}
+.encyclopedia > h1{
+    margin-right: 20px;
+    font-size: 3rem;
+    display: inline;
+}
+#active{
+    
+    opacity: 1;
+    border-bottom: 1px solid #fff;
+}
+.encyclopedia p{
+    display: inline;
+}
+
+.header_form{
+    margin: 40px 80px;
+    padding-bottom: 80px;
+}
+#search{
+    width: 70%;
+    padding: 15px 10px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(0, 6, 57);
+    border-radius: 5px;
+}
+
+.btn_submit{
+    background: #5c6ac4;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #5c6ac4;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.sec-left{
+    margin-top: 40px;
+    width: 60%;
+    margin-left: 80px;
+}
+.para .text{
+    opacity: 0.8;
+    margin-bottom: 20px;
+    text-justify: auto;
+    font-size: 1.1rem;
+}
+
+.popular{
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.retail {
+    width: 50%;
+    height: 20%;
+    background-color: #5c6ac4;
+    margin-top: 20px;
+    float: left;
+
+}
+.retail h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.retail p{
+    margin: 30px 10px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.retail img{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.merchanding{
+    margin-top: 20px;
+    text-align: center;
+    height: 30%;
+    background-color: #d3d3d3;
+    padding-left: 40%;
+    padding-top: 10px;
+
+}
+
+.merchanding h1{
+    text-transform: uppercase;
+}
+
+.merchanding img{
+    position: relative;
+    width: 140px;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+}
+
+.Entrepreneurship{
+    padding-top: 10px;
+    border-top: 1px solid #000;
+    background-color: #d3d3d3;
+}
+
+.Entrepreneurship h1, .Entrepreneurship p{
+    text-align: center;
+}
+.Entrepreneurship p{
+    margin: 10px 30px;
+}
+
+.Entrepreneurship img{
+    position: relative; 
+    width: 300px;
+    margin-top: 10px;
+    left: 5%;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    
+}
+
+.sec-right{
+    width: 30%;
+    float: right;
+}
+
+.sign_up{
+    background-color: rgb(0, 6, 57);
+    text-align: center;
+    color: #fff;
+    margin-right: 40px;
+}
+.sign_up img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    top: 0;
+    left: 50;
+}
+
+.sign_up h3{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.sign_up p{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.sign_up #email{
+    width: 90%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.sign_up #submit{
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 9px 10px;
+    margin-top: 10px;
+    border: 1px solid #5c6ac4;
+    border-radius: 5px;
+    text-transform: capitalize;
+    background-color: #5c6ac4;
+    color: #fff;
+    cursor: pointer;
+}
+.sign_up #submit:hover{
+    background-color: #5c6aa1;
+}
+.sign_up p:last-child{
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.resources h3{
+    text-transform: uppercase;
+}
+.resources ul{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.resources ul li{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.resources ul li{
+    cursor: pointer;
+}
+.resources a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.resources a:hover{
+    text-decoration: underline;
+}
+
+.resources p{
+    color: #5c6ac4;
+    font-size: 1.2rem;
+}
+.sole-con{
+    clear: left;
+    margin-top: 50px;
+    
+    
+}
+.sole{
+    
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    float: left;
+    padding-bottom: 10px;
+    height: 200px;
+    margin-right: 26px;
+}
+.sole h3, .sole p{
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sole h3{
+    margin-top: 10px;
+}
+.sole p{
+    font-size: 1rem;
+    text-transform: lowercase;
+    margin-top: 20px;
+}
+
+.sole:last-child{
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.sole:nth-child(2){
+    margin-left: 10px;
+}
+
+div.featured{
+    content: "";
+    clear: both;
+    display: table;
+    /* margin-top: 50px; */
+}
+
+.featured h3{
+    text-transform: uppercase;
+}
+.featured dl{
+    float: left;
+    width: 30%;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.featured dt a{
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+
+.featured dd{
+    text-justify: auto;
+    opacity: 0.8;
+    font-size: 1rem;
+}
+
+.browse_more{
+    margin-top: 50px;
+}
+
+.browse_more > h3{
+    text-transform: uppercase;
+}
+
+.browse_more ul, .browse_more li{
+    padding: 0;
+    margin: 0;
+}
+
+.browse_more ul{
+    margin-top: 20px;
+}
+.browse_more ul li{
+    margin-bottom: 20px;
+}
+.browse_more li a{
+    
+    margin-right: 70px;
+    font-size: 1.3rem;
+    color: blue;
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+}
+
+.browse_more li a:hover{
+    text-decoration: none;
+}
+
+.free_trial{
+    background-color: #f4f6f8;
+    margin-top: 90px;
+    /* margin-left: 80px; */
+    padding: 10% 80px;
+}
+
+.free_trial h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    display: inline;
+}
+
+.free_trial span{
+    color: blue;
+}
+
+
+.free_trial #email{
+    width: 30%;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.free_trial #email:hover{
+    border-color: rgb(0,0,255);
+    border-width: 2px;
+}
+
+
+.free_trial #btn_submit {
+    width: 20%;
+    background-color: rgb(0,0,255);
+    color: #fff;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+
+}
+
+.free_trial #btn_submit:hover{
+    background-color: rgb(0,0,200);
+}
+
+.free_trial p {
+    float: right;
+    margin-right: 5%;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+div.footer{
+    background-color: #000;
+}
+div.footer a{
+    padding: 30px 20px;
+    text-transform: uppercase;
+    margin-left: 80px;
+    display: inline-block;
+    color: #fff;
+    border-bottom: 2px solid #000;
+    
+}
+
+div.footer a:hover{
+    border-bottom-color: #fff;   
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 300px;
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer ul h4{ 
+    color: #fff;
+}
+footer a{
+    color: #fff9;
+}
+
+footer h4{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+footer ul{
+    display: inline-block;
+    background-color: #000;
+    margin: 0;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+footer li{
+    display: block;
+    padding: 0;
+    margin-bottom: 10px;
+    
+}

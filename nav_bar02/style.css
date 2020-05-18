@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Ecommerce Website Builder-Create website builder free trial </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+
+    <nav>
+      <div class="title">
+        <img src="data:image/png;base64,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" alt="shopify logo" width="40" height="40">
+        <h2>Shopify</h2>
+      </div>
+      <ul>
+        <li><a href="#"> Start   </a></li>
+        <li><a href="#"> Sell   </a></li>
+        <li><a href="#"> Market </a></li>
+        <li><a href="#"> Manage </a></li>
+      </ul>
+
+      <ul>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Learn</a></li>
+        <li><a href="#">Log in</a></li>
+      </ul>
+      
+      <button type="button">
+        Start free trial
+      </button>
+    </nav>
+    <script src="" async defer></script>
+  </body>
+</html>

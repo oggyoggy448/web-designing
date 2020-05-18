@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+    padding: 2rem 2rem 2rem 0rem;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}

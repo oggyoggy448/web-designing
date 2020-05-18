@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    margin: 10px 20px;
+}
+
+header h1{
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: inline;
+    
+}
+header h1 span{
+    color: rgb(0,125,0);
+}
+header p{   
+    
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    display: inline;
+    padding-top: 20px;
+    
+}
+header p{
+    float: right;
+}
+
+nav{
+    background-color: rgb(0, 170, 0);
+    overflow: auto;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+
+nav ul li{
+    float: left;
+}
+nav ul li p{
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    letter-spacing: 2px;
+}
+nav ul li p:hover{
+    background-color: #fff;
+    color: rgb(0,100,0);
+}
+
+li.nav-icons{
+    float: right;
+}
+
+div.vertical{
+    width: 20%;
+    float: left;
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+
+.vertical ul{
+    margin: 10px;
+}
+.vertical li{
+    padding: 10px;
+}
+.vertical h3{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.vertical li a{
+    color: #000;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.vertical li a::before{
+    content: "learn ";
+}
+
+.vertical li:hover{
+    background-color: #f3f3f3;
+}
+
+div.main{
+    width: auto;
+    /* border: 1px solid #000; */
+    padding: 20px;
+}
+
+div.main::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+section.html_section , .css_section {
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    /* border: 1px solid #000; */
+}
+
+
+.html_section h1 , .css_section h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-top: 30px;
+    
+}
+
+.html_section p, .css_section p{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.html_section button , .css_section button{
+    background-color: #333333;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    margin-right: 10px;
+}
+
+.html_section button:hover , .css_section button:hover{
+    background-color: #939393;
+}
+
+section.html_code, .css_code{
+    float: left;
+    width: 40%;
+    background-color: #d3d3d3;
+    height: 400px;
+    /* margin-top: 10px; */
+    
+}
+
+section.html_code h1,  .css_code h1{
+    margin: 20px 10px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.html_code p , .css_code p {
+    font-size: 1.2rem;
+    border-left: 1px solid #f00;
+    margin-left: 10px;
+    border-left: 2px solid #f00;
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.html_code button, .css_code button{
+    width: 100px;
+    padding: 10px;
+    font-size: 1.1rem;
+    background-color: rgb(0, 122, 0);
+    color: #fff;
+    text-transform: capitalize;
+    margin: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 10px;    
+}
+
+.html_code button:hover ,  .css_code button:hover{
+    background-color: rgb(255,255,255);
+    color: #000;
+}
+
+.css_code , .css_section {
+    margin-top: 10%;
+}
+
+.css_section{
+    background: #d3d3d3;
+    
+}
+
+.css_section, .css_code{
+    height: 500px;
+}
+.css_code{
+    margin-left: 20px;
+    width: 38%;
+}
+
+
+div.lang_section{
+    background-color: #000;
+    float: left;
+    margin-left: 20%;
+    margin-top: 20px;
+    padding: 40px;
+    margin-right: 18px;
+}
+
+.lang_section section{
+    width: 40%;
+    float: left;
+    color: #000;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px;
+    width: 40%;
+    height: 250px;
+}
+
+.lang_section section h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 1.9rem;
+}
+
+.lang_section section p{
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+
+.lang_section section a{
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 1.2rem;
+
+}
+
+.lang_section section a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+section.exercise_section {
+    margin-left: 21%;
+    margin-right: 25px;
+    /* margin-top: 5%; */
+    background-color: #0008;
+    padding: 20px;
+    text-align: center;
+    height: 600px;
+
+
+}
+
+section.exercise_section h1{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.exercise_section p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.exercise_section a{
+    background: rgb(0,122,0);
+    color: #fff;
+    padding: 20px 40px;
+    margin: 10px;
+    text-transform: capitalize;
+    
+}
+
+.block_btn{
+    display: inline-block;
+    width: 30%;
+}
+
+.exercise_section .bottom_links{
+    margin-top: 30px;
+}
+
+.exercise_section a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+@media screen and (max-width: 1161px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+    }
+    header h1{
+        display: block;
+        text-align: center;
+    }
+    header p{
+        display: block;
+        text-align: center;
+        float: none;
+    }
+
+    section.html_section, section.html_code{
+        width: 80%;
+        float: right;
+    }
+
+    .css_code, .css_section{
+        width: 80%;
+        float: right;
+    }
+
+    .css_section{
+        margin-top: 0;
+    }
+    .lang_section{
+        width: 80%;
+    }
+    .lang_section section{
+        width: 90%;
+
+    }
+
+    .block_btn{
+        width: 90%;
+    }
+    .bottom_links{
+        display: none;
+    }
+
+    .exercise_section{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 817px){
+    .vertical{
+        display: none;
+    }
+    .main{
+        width: 100% !important;
+        padding: 0 !important;        
+    }
+    .html_section, .html_code{
+        width: 100% !important;
+        float: none !important;
+    }
+
+    .html_code{
+        padding: 20px;
+    }
+    .css_code, .css_section{
+        width: 100% !important;
+    }
+    .css_section{
+        border-top: 1px solid #fff;
+    }
+    .lang_section{
+        width: 100% !important;
+        float: none;
+        margin-left: 0 !important;
+    }
+    .exercise_section{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    nav{
+        display: none;
+    }
+
+}

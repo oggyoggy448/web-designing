@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.link{
+    display: flex;
+}
+
+.link li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    padding: 10px 12px;
+    text-transform: uppercase;
+}
+
+.link li a:hover{
+    color: #000;
+    background-color: #fff;
+    text-decoration: underline;
+    
+}
+button{
+    
+    margin-right: 1rem;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 8px 1.5rem;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.8);
+}
+img{
+    border-radius: 1.4rem;
+    cursor: pointer;
+}

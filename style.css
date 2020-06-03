@@ -1,287 +1,112 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+    border-radius: 20px;
+}
+nav div, nav div ul{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul.sub_list{
+    display: block;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    position: absolute;
+    top: 80px;
+    text-align: left;
+    color: #00f;
+    left: 90px;
+    z-index: 1;
+    border: 1px solid #000;
+    display: none;
     margin: 0;
     padding: 0;
 }
 
-.top_bar{
-    background: #fff;
-    border: 1px solid #d3d3d3;
-    overflow: auto;
-    padding-left: 30%;
-    padding-top: 10px;
-}
-
-.top_bar::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.bar_content{
-    display: inline-block;
-    padding-bottom: 10px;
-    margin-left: 5px;
-}
-
-.bar_content p{
-    display: inline;
-}
-
-.bar_content:nth-child(2){
-    border-bottom: 2px solid #d3d3d3;
-}
-
-div.main{
-    margin: 0 15%;
-    border: 1px solid #000;
-    margin-top: 10px;
-}
-div.main::after{
-    display: table;
-    content: "";
-    clear: both;
-}
-
-.main header img{
-    width: 100%;
-}
-nav{
-    background: #ffcb0a;
-}
-nav ul{
-    list-style: none;
-    overflow: hidden;
-    padding: 5px;
-}
-nav ul li{
-    display: inline-block;
-    background: #ffcb;
-    padding: 5px;
-    border-bottom: 4px solid #ffb;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #000;
-    text-transform: capitalize;
-    font-size: 1.2rem;
-}
-
-nav ul li a span{
-    text-transform: uppercase;
-    background: #fff;
-    font-size: 0.8rem;
-}
-
-nav ul li:hover{
-    background: #ffcb00;
-}
-
-#search{
-    width: 100%;
+nav ul.sub_list li{
     padding: 10px;
-    border-bottom: 1px solid #000;
-}
-
-.heading h2{
-    padding: 10px;
-}
-hr{
-    margin: 0 10px;
-}
-
-.heading p{
-    padding: 10px;
-}
-
-div.title_img{
-    margin-left: 10px;
-}
-
-div.title_img img{
-    width: 400px;
-    float: left;
-}
-div.title_img div{
-    float: left;
-    width: 500px;
-    margin-left: 20px;
-}
-div.title_img::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-div.title_img a{
-    text-decoration: none;
-    color: #000;
-}
-div.title_img button{
-    background-color: #ffcb0a;
-    padding: 5px;
-    text-transform: capitalize;
-    cursor: pointer;
-}
-.trial_session{
-    margin-left: 5px;
-    background-color: #f1f1f1 !important;
-    color: #000;
-    display: inline-block;
-}
-
-.title_img .link{
-    display: block;
-    margin-top: 5px;
-}
-
-div.title_img{
-    margin-top: 10px;
     
 }
-
-section.imgs{
-    margin-top: 20px;
-    padding-left: 10px;
-}
-section.imgs::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-section.imgs div{
-    float: left;
-    margin-right: 20px;
+nav ul.sub_list li a{
+    text-align: left !important;
+    color:#00f ;
+    text-transform: capitalize;
 }
 
-div.sec01 img, div.sec02 img{
-    float: left;
-}
-div.sec01 div, div.sec02 div{
-    float: left;
-    padding: 10px;
+nav div ul li a.products:hover nav ul.sub_list{
+    display: block;
 }
 
-div.sec01 h3:first-child , div.sec02 h3:first-child{
-    border-left: 3px solid #ffcb00;
-    padding-left: 5px;
+nav ul.sub_list2{
+    display: block;
+    position: absolute;
+    top: 80px;
+    
+    
+    left: 120px;
+    
+    border: 1px solid #000;
+    
+    display: none;
 }
 
-div.sec01 p:last-child , div.sec02 p:last-child{
-    color: #e3d3f3;
-    margin-top: 5px;
+nav ul.sub_list2 li{
+    padding: 14px;
+    
+}
+nav ul.sub_list2 li a{
+    text-align: left !important;
+    color:#00f ;
+    text-transform: capitalize;
 }
 
-
-div.episodes{
-    margin-top: 20px;
-    padding-left: 10px;
+nav div ul li.features:hover ul.sub_list2{
+    display: block;
+}
+nav button{
+    display: none;
 }
 
-div.episodes ul{
-    list-style: none;
-    float: left;
-    width: 50%;
-}
-
-.episodes ul li a{
-    color: #000;
-    text-decoration: none;
-}
-
-.episodes ul li a h4{
-    border-left: 3px solid #ffcb00;
-    padding-left: 5px;
-    font-size: 1.2rem;
-}
-
-.episodes ul li a h4:hover{
-    text-decoration: underline;
-}
-
-.episodes ul li p{
-    color: #0008;
-    padding-left: 10px;
-}
-
-.episodes ul li{
-    margin: 30px;
-}
-
-section.footer{
-    margin: 10px 15%;
-    padding: 10px 0;
-}
-
-section.footer a{
-    text-decoration: none;
-    padding: 10px;
-    color: #000;
-    background-color: #d3d3d3;
-    display: inline-block;
-    border: 1px solid #fff;
-}
-
-.right_opts{
-    float: right;
-    margin-right: 5px;
-}
-
-section.footer a:hover{
-    background: #fff;
-    color: #f00;
-    border: 1px solid #f00
-}
-
-
-@media screen and (max-width: 1215px){
-    div.top_bar{
-        padding-left: 20%;
+@media screen and (max-width: 730px){
+    
+    nav div ul{
+        position: absolute;
+        display: block;
+        width: 30%;
+        right: 0;
     }
-    .main{
-        border: none !important;
-        margin: 0 !important;
+    nav div ul.left{
+        top: 30px;
     }
-    .footer{
-        margin: 0 !important; 
-        padding: 20px !important;
+    nav div ul.right{
+        top: 180px;
     }
-}
-
-@media screen and (max-width: 843px){
-    div.top_bar{
-        font-size: 0.8rem;
-        padding-left: 15% !important;
+    nav div ul li{
+        padding: 10px;
     }
-    nav ul li a{
-        font-size: 0.8rem;
+    nav div ul{
+        display: none;
     }
-
-    .title_img img{
-        width: 100% !important;
-        float: none !important;
+    nav button{
+        display: block;
     }
-
-    .title_img div{
-        float: none !important;
-        margin-top: 30px !important ;
-        text-align: center;
-        width: 100% !important;
-        margin-left: 0 !important;
-        padding: 10px !important;
-    }
-    .sec02{
-        margin-top: 20px !important;
-    }
-    .footer{
-        font-size: 0.7rem;
-    }
-    .sec02 div{
-        margin-right: 0 !important;
-    }
-    .footer a , .right_opts {
-        float: none !important;
-        font-size: 0.8rem;
-    }
-
 }
